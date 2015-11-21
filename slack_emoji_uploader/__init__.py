@@ -304,7 +304,7 @@ def main():
         help='Number of threads to use for uploading [default: 4]',
     )
     args.add_argument(
-        '--upload_folder',
+        '--upload-folder',
         default=os.path.dirname(__file__),
         help='Base folder for relative image paths [default: script location]',
     )
